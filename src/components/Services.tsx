@@ -31,37 +31,37 @@ const Services = () => {
     <section id="services" className="section">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in">Ce que nous proposons</div>
-          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Nos Services</h2>
+          <div className="tag mb-4 animate-fade-in">Nos prestations</div>
+          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Services de métré professionnel</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Nous proposons une gamme complète de services de métrés pour optimiser
-            vos appels d'offres et garantir la précision de vos devis.
+            Notre expertise vous permet de vous concentrer sur votre cœur de métier
+            tout en disposant de métrés précis pour vos études de prix.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <ServiceCard 
             icon={FileSpreadsheet} 
-            title="Métrés TCE" 
-            description="Métrés Tous Corps d'État précis et détaillés pour vos appels d'offres, avec quantitatifs complets."
+            title="Métrés tous corps d'état" 
+            description="Relevés quantitatifs détaillés et complets pour chaque lot, entièrement adaptés à vos besoins spécifiques."
             delay={0.1}
           />
           <ServiceCard 
             icon={Ruler} 
-            title="Optimisation des quantitatifs" 
-            description="Contrôle et optimisation des quantités pour des devis compétitifs et sans risque de sous-estimation."
+            title="Vérification et optimisation" 
+            description="Analyse approfondie des quantitatifs pour identifier les incohérences et optimiser vos réponses aux appels d'offres."
             delay={0.2}
           />
           <ServiceCard 
             icon={Building} 
-            title="Modélisation BIM" 
-            description="Extraction de quantités via la modélisation BIM pour une précision maximale et une visualisation claire."
+            title="Extraction depuis BIM" 
+            description="Exploitation des maquettes numériques pour des métrés ultra-précis intégrant toutes les spécificités techniques."
             delay={0.3}
           />
           <ServiceCard 
             icon={BarChart3} 
-            title="Analyse et conseil" 
-            description="Accompagnement technique et analyse des métrés pour optimiser vos chances de remporter les appels d'offres."
+            title="Conseil et accompagnement" 
+            description="Support technique expert pour analyser vos métrés et maximiser vos chances de remporter les marchés."
             delay={0.4}
           />
         </div>

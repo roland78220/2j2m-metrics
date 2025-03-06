@@ -1,16 +1,16 @@
 
-import { Code, DatabaseIcon, CogIcon } from 'lucide-react';
+import { Code, DatabaseIcon, CogIcon, Layers } from 'lucide-react';
 
 const Technology = () => {
   return (
     <section id="technology" className="section bg-brand-blue/5">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in">Notre approche numérique</div>
-          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Technologies et outils</h2>
+          <div className="tag mb-4 animate-fade-in">Notre expertise digitale</div>
+          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Solutions numériques de métré</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Nous utilisons les dernières technologies numériques pour optimiser
-            la précision et l'efficacité de nos métrés.
+            Nous utilisons les technologies numériques les plus avancées pour garantir 
+            fiabilité, précision et gain de temps considérable sur vos projets.
           </p>
         </div>
 
@@ -22,22 +22,21 @@ const Technology = () => {
                 <div className="relative h-full flex flex-col justify-center">
                   <h3 className="text-2xl font-semibold text-brand-darkGray mb-6">ATTIC+</h3>
                   <p className="text-brand-gray mb-6">
-                    Nous travaillons exclusivement avec le logiciel ATTIC+, la référence
-                    en matière de métré digital dans le secteur du bâtiment, pour garantir
-                    des résultats d'une précision maximale.
+                    Spécialistes certifiés du logiciel ATTIC+, nous garantissons une extraction 
+                    des quantitatifs parfaitement adaptée à vos besoins pour chaque corps d'état.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-center">
                       <div className="w-2 h-2 rounded-full bg-brand-blue mr-3"></div>
-                      <span className="text-brand-darkGray">Relevés sur plans numériques</span>
+                      <span className="text-brand-darkGray">Analyse détaillée des plans</span>
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 rounded-full bg-brand-blue mr-3"></div>
-                      <span className="text-brand-darkGray">Calculs automatisés</span>
+                      <span className="text-brand-darkGray">Détection automatique des incohérences</span>
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 rounded-full bg-brand-blue mr-3"></div>
-                      <span className="text-brand-darkGray">Précision millimétrique</span>
+                      <span className="text-brand-darkGray">Export Excel compatible avec vos outils</span>
                     </li>
                   </ul>
                 </div>
@@ -50,18 +49,17 @@ const Technology = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="glass-card p-8">
               <div className="feature-icon-container">
-                <Code size={24} />
+                <Layers size={24} />
               </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">BIM & Maquette numérique</h3>
+              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Maquette numérique & BIM</h3>
               <p className="text-brand-gray mb-4">
-                Utilisation des technologies BIM pour extraire des données précises
-                directement depuis les maquettes numériques et garantir une cohérence
-                parfaite avec les plans d'exécution.
+                Expertise en extraction de données depuis les maquettes BIM pour un métré complet
+                et précis, intégrant toutes les couches et spécificités techniques du projet.
               </p>
               <div className="bg-brand-blue/5 p-4 rounded-lg">
                 <p className="text-sm text-brand-darkGray">
-                  <span className="font-semibold">Avantage clé :</span> Visualisation 3D et détection des incohérences
-                  pour une fiabilité maximale des quantitatifs.
+                  <span className="font-semibold">Avantage clé :</span> Synchronisation parfaite entre les plans 2D 
+                  et la maquette 3D pour une vérification complète des quantités.
                 </p>
               </div>
             </div>
@@ -70,16 +68,15 @@ const Technology = () => {
               <div className="feature-icon-container">
                 <DatabaseIcon size={24} />
               </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Base de données matériaux</h3>
+              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Bibliothèque matériaux enrichie</h3>
               <p className="text-brand-gray mb-4">
-                Accès à une base de données exhaustive des matériaux et produits
-                du marché, permettant d'optimiser les métrés en fonction des
-                spécificités techniques des éléments.
+                Accès à notre bibliothèque complète des matériaux du marché, permettant
+                d'intégrer les spécificités techniques réelles dans vos quantitatifs.
               </p>
               <div className="bg-brand-blue/5 p-4 rounded-lg">
                 <p className="text-sm text-brand-darkGray">
-                  <span className="font-semibold">Avantage clé :</span> Utilisation des caractéristiques réelles
-                  des produits pour des métrés plus précis.
+                  <span className="font-semibold">Avantage clé :</span> Adaptation des métrés aux caractéristiques 
+                  exactes des produits que vous utiliserez.
                 </p>
               </div>
             </div>
@@ -88,15 +85,15 @@ const Technology = () => {
               <div className="feature-icon-container">
                 <CogIcon size={24} />
               </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Automatisation et scripts</h3>
+              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Automatisation intelligente</h3>
               <p className="text-brand-gray mb-4">
-                Développement de scripts et processus d'automatisation pour accélérer
-                le traitement des données et optimiser les calculs de quantités.
+                Développement de workflows personnalisés et d'automatismes pour
+                accélérer le traitement de vos métrés et optimiser les quantitatifs.
               </p>
               <div className="bg-brand-blue/5 p-4 rounded-lg">
                 <p className="text-sm text-brand-darkGray">
-                  <span className="font-semibold">Avantage clé :</span> Réduction du temps de traitement
-                  et minimisation des risques d'erreurs de calcul.
+                  <span className="font-semibold">Avantage clé :</span> Gain de temps considérable et réduction 
+                  significative des erreurs potentielles sur vos appels d'offres.
                 </p>
               </div>
             </div>

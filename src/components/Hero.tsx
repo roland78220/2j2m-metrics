@@ -13,21 +13,21 @@ const Hero = () => {
       <div className="container-tight relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="tag mb-5 animate-fade-in-down" style={{ animationDelay: '0.1s' }}>
-            Expert en métrés pour le bâtiment
+            Experts en métrés numériques pour le bâtiment
           </div>
           
           <h1 className="mb-6 animate-fade-in-down" style={{ animationDelay: '0.3s' }}>
-            <span className="text-brand-darkGray">Métrés précis et optimisés pour vos </span>
-            <span className="text-brand-blue">appels d'offres</span>
+            <span className="text-brand-darkGray">Des métrés fiables pour </span>
+            <span className="text-brand-blue">optimiser vos études de prix</span>
           </h1>
           
           <p className="text-xl text-brand-gray mb-8 animate-fade-in-down" style={{ animationDelay: '0.5s' }}>
-            Digitalisation et expertise à votre service pour des études de prix fiables et compétitives.
+            Gagnez en précision et en compétitivité grâce à nos solutions de métré digital et d'extraction BIM.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-down" style={{ animationDelay: '0.7s' }}>
             <a href="#contact" className="btn-primary w-full sm:w-auto flex items-center justify-center gap-2">
-              Demander un devis
+              Demander un devis gratuit
               <ArrowRight size={18} />
             </a>
             <a href="#services" className="btn-outline w-full sm:w-auto">
