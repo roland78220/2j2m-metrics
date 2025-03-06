@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container-tight relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="tag mb-5 animate-fade-in-down" style={{ animationDelay: '0.1s' }}>
-            Experts en métrés numériques pour le bâtiment
+            
           </div>
           
           <h1 className="mb-6 animate-fade-in-down" style={{ animationDelay: '0.3s' }}>
