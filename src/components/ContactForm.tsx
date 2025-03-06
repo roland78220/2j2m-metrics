@@ -22,29 +22,61 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
+    // Prepare the email content
+    const emailContent = {
+      to: "roland@2j2m.tech",
+      subject: `Nouvelle demande de contact de ${formData.name}`,
+      message: `
+        Nom: ${formData.name}
+        Email: ${formData.email}
+        Entreprise: ${formData.company}
+        
+        Message:
+        ${formData.message}
+      `
+    };
+    
     try {
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      toast({
-        title: "Message envoyé",
-        description: "Nous vous contacterons dans les plus brefs délais.",
-        variant: "default",
+      // Send the form data via email using a POST request to a email sending service
+      // This is a simple implementation that sends the data to a webhook/email service
+      const response = await fetch("https://formsubmit.co/roland@2j2m.tech", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          message: formData.message
+        })
       });
       
-      // Reset form
-      setFormData({
-        name: '',
-        email: '',
-        company: '',
-        message: ''
-      });
+      if (response.ok) {
+        toast({
+          title: "Message envoyé",
+          description: "Nous vous contacterons dans les plus brefs délais.",
+          variant: "default",
+        });
+        
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          message: ''
+        });
+      } else {
+        throw new Error('Échec de l\'envoi du formulaire');
+      }
     } catch (error) {
       toast({
         title: "Erreur",
         description: "Une erreur est survenue. Veuillez réessayer.",
         variant: "destructive",
       });
+      console.error("Error sending form:", error);
     } finally {
       setIsSubmitting(false);
     }
@@ -158,8 +190,8 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm text-brand-gray">Email</p>
-                    <a href="mailto:contact@2j2m-metres.fr" className="text-brand-darkGray hover:text-brand-blue transition-colors">
-                      contact@2j2m-metres.fr
+                    <a href="mailto:contact@2j2m.tech" className="text-brand-darkGray hover:text-brand-blue transition-colors">
+                      contact@2j2m.tech
                     </a>
                   </div>
                 </div>
@@ -170,8 +202,8 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm text-brand-gray">Téléphone</p>
-                    <a href="tel:+33600000000" className="text-brand-darkGray hover:text-brand-blue transition-colors">
-                      +33 6 00 00 00 00
+                    <a href="tel:+33780987747" className="text-brand-darkGray hover:text-brand-blue transition-colors">
+                      +33 7 80 98 77 47
                     </a>
                   </div>
                 </div>
