@@ -35,25 +35,6 @@ const Hero = () => {
               Découvrir nos services
             </a>
           </div>
-
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 animate-fade-in-down" style={{ animationDelay: '0.9s' }}>
-            <div className="glass-card p-4 text-center">
-              <div className="text-3xl font-bold text-brand-blue mb-2">15+</div>
-              <p className="text-sm text-brand-darkGray">Années d'expérience</p>
-            </div>
-            <div className="glass-card p-4 text-center">
-              <div className="text-3xl font-bold text-brand-blue mb-2">100%</div>
-              <p className="text-sm text-brand-darkGray">Digital</p>
-            </div>
-            <div className="glass-card p-4 text-center">
-              <div className="text-3xl font-bold text-brand-blue mb-2">24h</div>
-              <p className="text-sm text-brand-darkGray">Délai de réponse</p>
-            </div>
-            <div className="glass-card p-4 text-center">
-              <div className="text-3xl font-bold text-brand-blue mb-2">TCE</div>
-              <p className="text-sm text-brand-darkGray">Tous corps d'état</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
