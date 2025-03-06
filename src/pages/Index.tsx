@@ -25,21 +25,15 @@ const Index = () => {
       });
     }, observerOptions);
 
-    const revealElements = document.querySelectorAll('.reveal');
-    revealElements.forEach(element => {
+    // Initialize all animation elements
+    const animationElements = document.querySelectorAll('.animate-fade-in, .animate-fade-in-up, .animate-fade-in-down, .animate-scale-in, .animate-blur-in, .reveal');
+    
+    animationElements.forEach(element => {
       observer.observe(element);
     });
 
-    // Initialize all animation elements as reveal elements
-    const animationElements = document.querySelectorAll('.animate-fade-in, .animate-fade-in-up, .animate-fade-in-down, .animate-scale-in, .animate-blur-in');
-    animationElements.forEach(element => {
-      element.classList.add('reveal');
-    });
-
     return () => {
-      revealElements.forEach(element => {
-        observer.unobserve(element);
-      });
+      // Properly cleanup by unobserving all elements
       animationElements.forEach(element => {
         observer.unobserve(element);
       });
