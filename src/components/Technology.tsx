@@ -1,5 +1,5 @@
 
-import { Code, DatabaseIcon, CogIcon, Layers } from 'lucide-react';
+import { Code, DatabaseIcon, CogIcon, Layers, Building, CheckCircle } from 'lucide-react';
 
 const Technology = () => {
   return (
@@ -43,6 +43,20 @@ const Technology = () => {
               </div>
               <div className="absolute -top-6 -right-6 w-24 h-24 bg-brand-lightBlue/20 rounded-full blur-2xl"></div>
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-brand-blue/10 rounded-full blur-3xl"></div>
+            </div>
+
+            <div className="mt-12 bg-white rounded-xl shadow-lg p-6 animate-fade-in">
+              <h3 className="text-xl font-semibold text-brand-darkGray mb-4">Notre expertise en chiffres</h3>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-blue mb-2">15+</div>
+                  <p className="text-sm text-brand-darkGray">Années d'expérience</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-blue mb-2">100%</div>
+                  <p className="text-sm text-brand-darkGray">Digital</p>
+                </div>
+              </div>
             </div>
           </div>
 

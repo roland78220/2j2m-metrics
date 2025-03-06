@@ -1,5 +1,5 @@
 
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -22,7 +22,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-brand-gray mb-8 animate-fade-in-down" style={{ animationDelay: '0.5s' }}>
-            Gagnez en précision et en compétitivité grâce à nos solutions de métré digital et d'extraction BIM.
+            2J2M Métrés accompagne les entreprises du bâtiment dans l'optimisation de leurs réponses
+            aux appels d'offres grâce à une expertise pointue en métrés numériques et en modélisation BIM.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-down" style={{ animationDelay: '0.7s' }}>
@@ -33,6 +34,25 @@ const Hero = () => {
             <a href="#services" className="btn-outline w-full sm:w-auto">
               Découvrir nos services
             </a>
+          </div>
+
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 animate-fade-in-down" style={{ animationDelay: '0.9s' }}>
+            <div className="glass-card p-4 text-center">
+              <div className="text-3xl font-bold text-brand-blue mb-2">15+</div>
+              <p className="text-sm text-brand-darkGray">Années d'expérience</p>
+            </div>
+            <div className="glass-card p-4 text-center">
+              <div className="text-3xl font-bold text-brand-blue mb-2">100%</div>
+              <p className="text-sm text-brand-darkGray">Digital</p>
+            </div>
+            <div className="glass-card p-4 text-center">
+              <div className="text-3xl font-bold text-brand-blue mb-2">24h</div>
+              <p className="text-sm text-brand-darkGray">Délai de réponse</p>
+            </div>
+            <div className="glass-card p-4 text-center">
+              <div className="text-3xl font-bold text-brand-blue mb-2">TCE</div>
+              <p className="text-sm text-brand-darkGray">Tous corps d'état</p>
+            </div>
           </div>
         </div>
       </div>
