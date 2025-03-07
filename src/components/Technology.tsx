@@ -1,12 +1,11 @@
 
-import { Code, DatabaseIcon, CogIcon, Layers, Building, CheckCircle } from 'lucide-react';
+import { Code, DatabaseIcon, CogIcon, Layers, Building } from 'lucide-react';
 
 const Technology = () => {
   return (
     <section id="technology" className="section bg-brand-blue/5">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in">Notre expertise digitale</div>
           <h2 className="text-brand-darkGray mb-6 animate-fade-in">Solutions numériques de métré</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
             Nous utilisons les technologies numériques les plus avancées pour garantir 
@@ -17,7 +16,12 @@ const Technology = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <div className="relative">
-              <div className="aspect-square max-w-md mx-auto bg-white rounded-xl shadow-lg p-6 z-10 relative">
+              <div className="aspect-square max-w-md mx-auto bg-white rounded-xl shadow-lg p-6 z-10 relative overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
+                  alt="Modélisation numérique 3D" 
+                  className="absolute inset-0 w-full h-full object-cover opacity-20"
+                />
                 <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/5 to-brand-lightBlue/5 rounded-xl"></div>
                 <div className="relative h-full flex flex-col justify-center">
                   <h3 className="text-2xl font-semibold text-brand-darkGray mb-6">ATTIC+</h3>
@@ -61,54 +65,75 @@ const Technology = () => {
           </div>
 
           <div className="space-y-8 animate-fade-in">
-            <div className="glass-card p-8">
-              <div className="feature-icon-container">
-                <Layers size={24} />
-              </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Maquette numérique & BIM</h3>
-              <p className="text-brand-gray mb-4">
-                Expertise en extraction de données depuis les maquettes BIM pour un métré complet
-                et précis, intégrant toutes les couches et spécificités techniques du projet.
-              </p>
-              <div className="bg-brand-blue/5 p-4 rounded-lg">
-                <p className="text-sm text-brand-darkGray">
-                  <span className="font-semibold">Avantage clé :</span> Synchronisation parfaite entre les plans 2D 
-                  et la maquette 3D pour une vérification complète des quantités.
+            <div className="glass-card p-8 relative overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
+                alt="Maquette BIM" 
+                className="absolute inset-0 w-full h-full object-cover opacity-10"
+              />
+              <div className="relative z-10">
+                <div className="feature-icon-container">
+                  <Layers size={24} />
+                </div>
+                <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Maquette numérique & BIM</h3>
+                <p className="text-brand-gray mb-4">
+                  Expertise en extraction de données depuis les maquettes BIM pour un métré complet
+                  et précis, intégrant toutes les couches et spécificités techniques du projet.
                 </p>
+                <div className="bg-brand-blue/5 p-4 rounded-lg">
+                  <p className="text-sm text-brand-darkGray">
+                    <span className="font-semibold">Avantage clé :</span> Synchronisation parfaite entre les plans 2D 
+                    et la maquette 3D pour une vérification complète des quantités.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="glass-card p-8">
-              <div className="feature-icon-container">
-                <DatabaseIcon size={24} />
-              </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Bibliothèque matériaux enrichie</h3>
-              <p className="text-brand-gray mb-4">
-                Accès à notre bibliothèque complète des matériaux du marché, permettant
-                d'intégrer les spécificités techniques réelles dans vos quantitatifs.
-              </p>
-              <div className="bg-brand-blue/5 p-4 rounded-lg">
-                <p className="text-sm text-brand-darkGray">
-                  <span className="font-semibold">Avantage clé :</span> Adaptation des métrés aux caractéristiques 
-                  exactes des produits que vous utiliserez.
+            <div className="glass-card p-8 relative overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
+                alt="Bibliothèque matériaux" 
+                className="absolute inset-0 w-full h-full object-cover opacity-10"
+              />
+              <div className="relative z-10">
+                <div className="feature-icon-container">
+                  <DatabaseIcon size={24} />
+                </div>
+                <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Bibliothèque matériaux enrichie</h3>
+                <p className="text-brand-gray mb-4">
+                  Accès à notre bibliothèque complète des matériaux du marché, permettant
+                  d'intégrer les spécificités techniques réelles dans vos quantitatifs.
                 </p>
+                <div className="bg-brand-blue/5 p-4 rounded-lg">
+                  <p className="text-sm text-brand-darkGray">
+                    <span className="font-semibold">Avantage clé :</span> Adaptation des métrés aux caractéristiques 
+                    exactes des produits que vous utiliserez.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="glass-card p-8">
-              <div className="feature-icon-container">
-                <CogIcon size={24} />
-              </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Automatisation intelligente</h3>
-              <p className="text-brand-gray mb-4">
-                Développement de workflows personnalisés et d'automatismes pour
-                accélérer le traitement de vos métrés et optimiser les quantitatifs.
-              </p>
-              <div className="bg-brand-blue/5 p-4 rounded-lg">
-                <p className="text-sm text-brand-darkGray">
-                  <span className="font-semibold">Avantage clé :</span> Gain de temps considérable et réduction 
-                  significative des erreurs potentielles sur vos appels d'offres.
+            <div className="glass-card p-8 relative overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+                alt="Automatisation intelligente" 
+                className="absolute inset-0 w-full h-full object-cover opacity-10"
+              />
+              <div className="relative z-10">
+                <div className="feature-icon-container">
+                  <CogIcon size={24} />
+                </div>
+                <h3 className="text-xl font-semibold text-brand-darkGray mb-3">Automatisation intelligente</h3>
+                <p className="text-brand-gray mb-4">
+                  Développement de workflows personnalisés et d'automatismes pour
+                  accélérer le traitement de vos métrés et optimiser les quantitatifs.
                 </p>
+                <div className="bg-brand-blue/5 p-4 rounded-lg">
+                  <p className="text-sm text-brand-darkGray">
+                    <span className="font-semibold">Avantage clé :</span> Gain de temps considérable et réduction 
+                    significative des erreurs potentielles sur vos appels d'offres.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

@@ -39,7 +39,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <ServiceCard 
             icon={Building} 
             title="Métrés Gros-oeuvre" 
@@ -64,40 +64,6 @@ const Services = () => {
             description="Création de maquettes numériques exportables, facilitant la coordination et optimisant vos coûts de construction."
             delay={0.4}
           />
-        </div>
-
-        <div className="bg-brand-lightGray/50 rounded-xl p-8 animate-fade-in">
-          <h3 className="text-xl font-semibold text-brand-darkGray mb-6">Notre engagement</h3>
-          <p className="text-brand-gray mb-6">
-            Nous vous garantissons des métrés d'une précision irréprochable, réalisés avec 
-            les technologies numériques les plus avancées, pour vous permettre de remporter 
-            plus d'appels d'offres grâce à des études de prix fiables et compétitives.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <ul className="space-y-4">
-              {[
-                "Réduction significative du temps passé sur les métrés",
-                "Élimination des erreurs et oublis coûteux"
-              ].map((item, index) => (
-                <li key={index} className="flex items-start">
-                  <CheckCircle className="text-brand-blue shrink-0 mr-3 mt-0.5" size={20} />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <ul className="space-y-4">
-              {[
-                "Détection des incohérences dans les plans et documents",
-                "Accompagnement personnalisé tout au long de vos appels d'offres"
-              ].map((item, index) => (
-                <li key={index} className="flex items-start">
-                  <CheckCircle className="text-brand-blue shrink-0 mr-3 mt-0.5" size={20} />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
     </section>
