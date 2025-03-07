@@ -132,44 +132,6 @@ const Technology = () => {
             </div>
           </div>
         </div>
-
-        {/* Comparative advantages section */}
-        <div className="rounded-xl overflow-hidden shadow-lg mb-20 animate-fade-in">
-          <div className="bg-gradient-to-r from-brand-blue to-blue-700 p-8 text-white">
-            <h3 className="text-xl font-semibold mb-6 text-center">Les avantages de notre approche mixte</h3>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="bg-white/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <ClipboardList size={24} className="text-white" />
-                </div>
-                <div className="text-3xl font-bold mb-2">100%</div>
-                <p className="text-sm text-white/90">Fiabilité des données</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-white/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calculator size={24} className="text-white" />
-                </div>
-                <div className="text-3xl font-bold mb-2">98%</div>
-                <p className="text-sm text-white/90">Précision des métrés</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-white/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Ruler size={24} className="text-white" />
-                </div>
-                <div className="text-3xl font-bold mb-2">-30%</div>
-                <p className="text-sm text-white/90">Temps de traitement</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-white/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AreaChart size={24} className="text-white" />
-                </div>
-                <div className="text-3xl font-bold mb-2">+40%</div>
-                <p className="text-sm text-white/90">Optimisation budgétaire</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
