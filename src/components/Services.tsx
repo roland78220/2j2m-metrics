@@ -31,7 +31,7 @@ const Services = () => {
     <section id="services" className="section">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in">Nos prestations</div>
+          <div className="tag mb-4 animate-fade-in"></div>
           <h2 className="text-brand-darkGray mb-6 animate-fade-in">Services de métré professionnel</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
             Notre expertise vous permet de vous concentrer sur votre cœur de métier
