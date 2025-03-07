@@ -13,37 +13,6 @@ const Technology = () => {
           </p>
         </div>
 
-        {/* Main visual - Traditional + Digital */}
-        <div className="bg-white rounded-xl shadow-xl overflow-hidden mb-16 animate-fade-in">
-          <div className="grid md:grid-cols-2">
-            <div className="p-8 flex flex-col justify-center">
-              <h3 className="text-2xl font-semibold text-brand-darkGray mb-4">L'alliance du traditionnel et du numérique</h3>
-              <p className="text-brand-gray mb-6">
-                Nous combinons le savoir-faire traditionnel avec les technologies de pointe pour offrir 
-                des services de métré complets, adaptés à tous types de projets.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-brand-blue/10 text-brand-blue">
-                  Précision
-                </span>
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-brand-blue/10 text-brand-blue">
-                  Fiabilité
-                </span>
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-brand-blue/10 text-brand-blue">
-                  Expertise
-                </span>
-              </div>
-            </div>
-            <div className="h-64 md:h-auto">
-              <img 
-                src="public/lovable-uploads/fe4e9e34-9a75-40d3-8a98-058caa912606.png" 
-                alt="Alliance de méthodes traditionnelles et numériques" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-
         {/* Methods grid with better layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
           {/* Traditional Methods Card */}
