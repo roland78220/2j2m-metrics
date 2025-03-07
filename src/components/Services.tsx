@@ -1,5 +1,5 @@
 
-import { Building, Ruler, FileSpreadsheet, Cube } from 'lucide-react';
+import { Building, Ruler, FileSpreadsheet, Box, CheckCircle } from 'lucide-react';
 
 const ServiceCard = ({ 
   icon: Icon, 
@@ -59,7 +59,7 @@ const Services = () => {
             delay={0.3}
           />
           <ServiceCard 
-            icon={Cube} 
+            icon={Box} 
             title="Modélisation 3D" 
             description="Création de maquettes numériques exportables, facilitant la coordination et optimisant vos coûts de construction."
             delay={0.4}
