@@ -13,15 +13,49 @@ const Technology = () => {
           </p>
         </div>
 
+        {/* Images Gallery - Moved outside the nested sections */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16 animate-fade-in">
+          <div className="rounded-xl overflow-hidden shadow-lg h-64 relative group">
+            <img 
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
+              alt="Modélisation numérique 3D" 
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-70"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <h4 className="text-lg font-semibold">Modélisation 3D</h4>
+            </div>
+          </div>
+          
+          <div className="rounded-xl overflow-hidden shadow-lg h-64 relative group">
+            <img 
+              src="https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a" 
+              alt="Maquette BIM" 
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-70"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <h4 className="text-lg font-semibold">Maquette BIM</h4>
+            </div>
+          </div>
+          
+          <div className="rounded-xl overflow-hidden shadow-lg h-64 relative group">
+            <img 
+              src="https://images.unsplash.com/photo-1586281380349-632531db7ed4" 
+              alt="Quantitatifs précis" 
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-70"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <h4 className="text-lg font-semibold">Quantitatifs précis</h4>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <div className="relative">
               <div className="aspect-square max-w-md mx-auto bg-white rounded-xl shadow-lg p-6 z-10 relative overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
-                  alt="Modélisation numérique 3D" 
-                  className="absolute inset-0 w-full h-full object-cover opacity-20"
-                />
                 <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/5 to-brand-lightBlue/5 rounded-xl"></div>
                 <div className="relative h-full flex flex-col justify-center">
                   <h3 className="text-2xl font-semibold text-brand-darkGray mb-6">ATTIC+</h3>
@@ -66,11 +100,6 @@ const Technology = () => {
 
           <div className="space-y-8 animate-fade-in">
             <div className="glass-card p-8 relative overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
-                alt="Maquette BIM" 
-                className="absolute inset-0 w-full h-full object-cover opacity-10"
-              />
               <div className="relative z-10">
                 <div className="feature-icon-container">
                   <Layers size={24} />
@@ -90,11 +119,6 @@ const Technology = () => {
             </div>
 
             <div className="glass-card p-8 relative overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
-                alt="Bibliothèque matériaux" 
-                className="absolute inset-0 w-full h-full object-cover opacity-10"
-              />
               <div className="relative z-10">
                 <div className="feature-icon-container">
                   <DatabaseIcon size={24} />
@@ -114,11 +138,6 @@ const Technology = () => {
             </div>
 
             <div className="glass-card p-8 relative overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
-                alt="Automatisation intelligente" 
-                className="absolute inset-0 w-full h-full object-cover opacity-10"
-              />
               <div className="relative z-10">
                 <div className="feature-icon-container">
                   <CogIcon size={24} />
