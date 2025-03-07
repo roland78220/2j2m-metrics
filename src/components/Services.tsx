@@ -1,5 +1,5 @@
 
-import { FileSpreadsheet, Ruler, Building, BarChart3, CheckCircle } from 'lucide-react';
+import { Building, Ruler, FileSpreadsheet, Cube } from 'lucide-react';
 
 const ServiceCard = ({ 
   icon: Icon, 
@@ -41,27 +41,27 @@ const Services = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <ServiceCard 
-            icon={FileSpreadsheet} 
-            title="Métrés tous corps d'état" 
-            description="Relevés quantitatifs détaillés et complets pour chaque lot, entièrement adaptés à vos besoins spécifiques."
+            icon={Building} 
+            title="Métrés Gros-oeuvre" 
+            description="Quantitatifs précis de fondations, structures béton, maçonnerie et charpente pour des devis justes et compétitifs."
             delay={0.1}
           />
           <ServiceCard 
             icon={Ruler} 
-            title="Vérification et optimisation" 
-            description="Analyse approfondie des quantitatifs pour identifier les incohérences et optimiser vos réponses aux appels d'offres."
+            title="Métrés second oeuvre" 
+            description="Tous lots architecturaux : plâtrerie, menuiserie, revêtements, plomberie, électricité, pour une analyse complète de vos projets."
             delay={0.2}
           />
           <ServiceCard 
-            icon={Building} 
-            title="Extraction depuis BIM" 
-            description="Exploitation des maquettes numériques pour des métrés ultra-précis intégrant toutes les spécificités techniques."
+            icon={FileSpreadsheet} 
+            title="Tout type d'ouvrage" 
+            description="Solutions adaptées pour le neuf et la réhabilitation : bâtiments résidentiels, tertiaires, industriels ou patrimoniaux."
             delay={0.3}
           />
           <ServiceCard 
-            icon={BarChart3} 
-            title="Conseil et accompagnement" 
-            description="Support technique expert pour analyser vos métrés et maximiser vos chances de remporter les marchés."
+            icon={Cube} 
+            title="Modélisation 3D" 
+            description="Création de maquettes numériques exportables, facilitant la coordination et optimisant vos coûts de construction."
             delay={0.4}
           />
         </div>
