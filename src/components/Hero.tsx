@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container-tight relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="tag mb-5 animate-fade-in-down" style={{ animationDelay: '0.1s' }}>
-            
+            Expert en métrés pour le bâtiment
           </div>
           
           <h1 className="mb-6 animate-fade-in-down" style={{ animationDelay: '0.3s' }}>
@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-down" style={{ animationDelay: '0.7s' }}>
-            <a href="#contact" className="btn-primary w-full sm:w-auto flex items-center justify-center gap-2">
+            <a href="#contact" className="btn-primary w-full sm:w-auto flex items-center justify-center gap-2 text-lg px-8 py-4 bg-brand-darkBlue hover:bg-brand-blue transition-all shadow-lg">
               Demander un devis gratuit
               <ArrowRight size={18} />
             </a>

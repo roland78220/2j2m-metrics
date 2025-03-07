@@ -6,6 +6,7 @@ const Technology = () => {
     <section id="technology" className="section bg-gradient-to-b from-white to-brand-blue/5">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
+          <div className="tag mb-4">Notre expertise technique</div>
           <h2 className="text-brand-darkGray mb-6">Nos méthodes de métré</h2>
           <p className="text-lg text-brand-gray">
             Notre expertise allie méthodes traditionnelles éprouvées et technologies numériques avancées 
@@ -120,6 +121,12 @@ const Technology = () => {
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className="text-center">
+          <a href="#contact" className="btn-primary inline-flex items-center justify-center gap-2 text-lg px-8 py-3 bg-brand-darkBlue hover:bg-brand-blue transition-all shadow-md">
+            Obtenir un devis gratuit
+          </a>
         </div>
       </div>
     </section>
