@@ -28,7 +28,7 @@ const ServiceCard = ({
 
 const Services = () => {
   return (
-    <section id="services" className="section">
+    <section id="services" className="section pt-8 md:pt-12">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="tag mb-4 animate-fade-in"></div>

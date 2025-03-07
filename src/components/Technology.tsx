@@ -22,7 +22,7 @@ const Technology = () => {
                 Nous combinons le savoir-faire traditionnel avec les technologies de pointe pour offrir 
                 des services de métré complets, adaptés à tous types de projets.
               </p>
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-2">
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-brand-blue/10 text-brand-blue">
                   Précision
                 </span>
@@ -44,128 +44,91 @@ const Technology = () => {
           </div>
         </div>
 
-        {/* Traditional Methods Section */}
-        <div className="mb-20">
-          <div className="bg-white rounded-xl shadow-lg p-8 mb-12 animate-fade-in">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
-                <PencilRuler size={24} />
+        {/* Methods Content Cards - Side by side */}
+        <div className="grid md:grid-cols-2 gap-8 mb-20">
+          {/* Traditional Methods Card */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden animate-fade-in">
+            <div className="p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
+                  <PencilRuler size={24} />
+                </div>
+                <h3 className="text-xl font-semibold text-brand-darkGray">Bibliothèque matériaux enrichie</h3>
               </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray">Méthodes Traditionnelles</h3>
+              
+              <p className="text-brand-gray mb-6">
+                Notre expertise en calcul sur plan permet une analyse approfondie des documents 
+                et un métré détaillé, basé sur une bibliothèque complète de matériaux.
+              </p>
+              
+              <ul className="space-y-3">
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-amber-500 mt-2"></div>
+                  <span className="text-brand-darkGray">Accès à une bibliothèque complète des matériaux du marché</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-amber-500 mt-2"></div>
+                  <span className="text-brand-darkGray">Possibilité d'intégrer des spécificités techniques métier dans vos quantitatifs</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-amber-500 mt-2"></div>
+                  <span className="text-brand-darkGray">Base de données complète et évolutive</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-amber-500 mt-2"></div>
+                  <span className="text-brand-darkGray">Adaptation aux problématiques métier</span>
+                </li>
+              </ul>
             </div>
-            
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <div className="aspect-video rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc" 
-                    alt="Relevé sur site" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="text-lg font-medium text-brand-darkGray mb-3">Relevé sur site</h4>
-                <p className="text-brand-gray mb-4">
-                  Nos métreurs professionnels effectuent des relevés précis directement sur le chantier 
-                  avec des outils de mesure traditionnels pour garantir l'exactitude des dimensions.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-amber-500"></div>
-                    <span className="text-brand-darkGray">Vérification minutieuse des dimensions</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-amber-500"></div>
-                    <span className="text-brand-darkGray">Adaptation aux conditions réelles du terrain</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <div className="aspect-video rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="https://images.unsplash.com/photo-1512187849-463fdb898f21" 
-                    alt="Calcul manuel" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="text-lg font-medium text-brand-darkGray mb-3">Calcul et documentation manuelle</h4>
-                <p className="text-brand-gray mb-4">
-                  Notre expertise en calcul manuel permet une analyse approfondie des plans et un métré 
-                  détaillé, sans dépendance exclusive aux logiciels.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-amber-500"></div>
-                    <span className="text-brand-darkGray">Lecture experte de plans 2D</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-amber-500"></div>
-                    <span className="text-brand-darkGray">Documentation détaillée et transparente</span>
-                  </li>
-                </ul>
-              </div>
+            <div className="aspect-video">
+              <img 
+                src="public/lovable-uploads/2e63187a-64fb-4e3b-b405-cdbb14435362.png" 
+                alt="Bibliothèque matériaux et métré sur plan" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
-          
-          {/* Digital Methods Section */}
-          <div className="bg-white rounded-xl shadow-lg p-8 animate-fade-in">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 rounded-full bg-brand-blue/20 flex items-center justify-center text-brand-blue">
-                <Code size={24} />
-              </div>
-              <h3 className="text-xl font-semibold text-brand-darkGray">Solutions Numériques</h3>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <div className="aspect-video rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
-                    alt="Modélisation numérique 3D" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="text-lg font-medium text-brand-darkGray mb-3">Maquette numérique & BIM</h4>
-                <p className="text-brand-gray mb-4">
-                  Expertise en extraction de données depuis les maquettes BIM pour un métré complet
-                  et précis, intégrant toutes les couches et spécificités techniques du projet.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-brand-blue"></div>
-                    <span className="text-brand-darkGray">Synchronisation 2D/3D</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-brand-blue"></div>
-                    <span className="text-brand-darkGray">Vérification complète des quantités</span>
-                  </li>
-                </ul>
-              </div>
 
-              <div>
-                <div className="aspect-video rounded-lg overflow-hidden mb-6">
-                  <img 
-                    src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d" 
-                    alt="Automatisation intelligente" 
-                    className="w-full h-full object-cover"
-                  />
+          {/* Digital Methods Card */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden animate-fade-in">
+            <div className="p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-full bg-brand-blue/20 flex items-center justify-center text-brand-blue">
+                  <Code size={24} />
                 </div>
-                <h4 className="text-lg font-medium text-brand-darkGray mb-3">Automatisation intelligente</h4>
-                <p className="text-brand-gray mb-4">
-                  Développement de workflows personnalisés et d'automatismes pour
-                  accélérer le traitement de vos métrés et optimiser les quantitatifs.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-brand-blue"></div>
-                    <span className="text-brand-darkGray">Gain de temps considérable</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-brand-blue"></div>
-                    <span className="text-brand-darkGray">Réduction des erreurs potentielles</span>
-                  </li>
-                </ul>
+                <h3 className="text-xl font-semibold text-brand-darkGray">Automatisation intelligente</h3>
               </div>
+              
+              <p className="text-brand-gray mb-6">
+                Développement de workflows personnalisés et d'automatismes pour
+                accélérer le traitement de vos métrés et optimiser les quantitatifs.
+              </p>
+              
+              <ul className="space-y-3">
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-brand-blue mt-2"></div>
+                  <span className="text-brand-darkGray">Gain de temps considérable</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-brand-blue mt-2"></div>
+                  <span className="text-brand-darkGray">Réduction des erreurs potentielles</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-brand-blue mt-2"></div>
+                  <span className="text-brand-darkGray">Maquette numérique & BIM intégrés</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <div className="min-w-2 h-2 rounded-full bg-brand-blue mt-2"></div>
+                  <span className="text-brand-darkGray">Vérification complète des quantités</span>
+                </li>
+              </ul>
+            </div>
+            <div className="aspect-video">
+              <img 
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
+                alt="Automatisation numérique" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
