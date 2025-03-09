@@ -1,5 +1,5 @@
 
-import { ClipboardList, Calculator, FileSearch, FileText } from 'lucide-react';
+import { ClipboardList, Calculator, FileText } from 'lucide-react';
 
 interface StepProps {
   number: number;
@@ -44,7 +44,7 @@ const Methodology = () => {
           <div className="tag mb-4 animate-fade-in">Notre approche</div>
           <h2 className="text-brand-darkGray mb-6 animate-fade-in">Notre méthodologie</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Un processus en 4 étapes simples et efficaces pour vous fournir des métrés précis et optimisés.
+            Un processus en 3 étapes simples et efficaces pour vous fournir des métrés précis et optimisés.
           </p>
         </div>
 
@@ -60,23 +60,16 @@ const Methodology = () => {
             <Step 
               number={2} 
               icon={Calculator} 
-              title="Réalisation des métrés" 
-              description="Nos experts procèdent au métré détaillé en utilisant la méthode la plus adaptée à votre projet, traditionnelle ou numérique, pour garantir une précision maximale."
+              title="Réalisation des métrés et contrôle qualité" 
+              description="Nos experts procèdent au métré détaillé en utilisant la méthode la plus adaptée à votre projet, traditionnelle ou numérique. Chaque métré est soumis à un processus rigoureux de vérification et de contrôle qualité pour éliminer toute erreur potentielle."
               delay={0.2}
             />
             <Step 
               number={3} 
-              icon={FileSearch} 
-              title="Vérification et contrôle qualité" 
-              description="Chaque métré est soumis à un processus rigoureux de vérification et de contrôle qualité pour éliminer toute erreur potentielle."
-              delay={0.3}
-            />
-            <Step 
-              number={4} 
               icon={FileText} 
               title="Livraison et support" 
               description="Nous vous livrons vos métrés dans le format souhaité et restons disponibles pour répondre à vos questions et apporter des ajustements si nécessaire."
-              delay={0.4}
+              delay={0.3}
             />
           </div>
         </div>
