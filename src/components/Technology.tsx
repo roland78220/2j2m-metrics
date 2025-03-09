@@ -7,10 +7,11 @@ const Technology = () => {
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <div className="tag mb-4">Notre expertise technique</div>
-          <h2 className="text-brand-darkGray mb-6">Nos méthodes de métré</h2>
+          <h2 className="text-brand-darkGray mb-6">Nos méthodes de travail</h2>
           <p className="text-lg text-brand-gray">
-            Notre expertise allie méthodes traditionnelles éprouvées et technologies numériques avancées 
-            pour vous garantir précision et efficacité dans tous vos projets.
+            Nous mettons à votre disposition deux approches distinctes et complémentaires pour la réalisation 
+            de vos métrés : une approche traditionnelle basée sur les plans 2D et une approche numérique 
+            utilisant la maquette BIM 3D.
           </p>
         </div>
 
@@ -21,7 +22,7 @@ const Technology = () => {
             <div className="h-64 relative overflow-hidden">
               <img 
                 src="/lovable-uploads/06196fd0-fd72-4d16-85ee-e8930c64628c.png" 
-                alt="Approche traditionnelle : Maquette physique avec plans" 
+                alt="Approche traditionnelle : Mesure sur plans et édition de DPGF" 
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
@@ -34,11 +35,12 @@ const Technology = () => {
               </div>
             </div>
             <div className="p-6">
-              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Maquette physique avec plans</h4>
+              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Mesure sur plans et édition de DPGF</h4>
               <p className="text-brand-gray mb-4">
-                Notre approche traditionnelle combine maquettes physiques et plans architecturaux 2D pour 
-                une analyse précise sur table. Les mesures sont effectuées manuellement avec une rigueur 
-                technique, permettant une visualisation concrète et tangible de votre projet.
+                Notre méthode traditionnelle consiste à réaliser les métrés directement sur les plans 
+                architecturaux 2D à l'aide du kutch. Les données relevées sont soigneusement retranscrites 
+                dans un métré minute puis consolidées dans une Décomposition du Prix Global et Forfaitaire (DPGF). 
+                Nous pouvons également réaliser l'édition ou la modification de plans 2D selon vos besoins spécifiques.
               </p>
               
               <ul className="space-y-3">
@@ -46,25 +48,25 @@ const Technology = () => {
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Maquette en volume avec détails réalistes</span>
+                  <span className="text-brand-darkGray">Mesure précise sur plans 2D</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Plans 2D pour analyse technique approfondie</span>
+                  <span className="text-brand-darkGray">Édition de la minute métré détaillée</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Aspect manuel et technique de l'architecture</span>
+                  <span className="text-brand-darkGray">Édition d'une DPGF claire et fiable</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Précision et fiabilité éprouvées</span>
+                  <span className="text-brand-darkGray">Création et modification de plans 2D sur demande</span>
                 </li>
               </ul>
             </div>
@@ -88,12 +90,12 @@ const Technology = () => {
               </div>
             </div>
             <div className="p-6">
-              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Maquette BIM avec analyse logicielle</h4>
+              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Méthode BIM 3D</h4>
               <p className="text-brand-gray mb-4">
-                Notre approche numérique utilise la modélisation BIM 3D pour visualiser chaque élément 
-                de construction avec une précision inégalée. Les différentes structures sont codées par 
-                couleur pour une identification rapide, et nos tableaux d'analyse quantifient 
-                automatiquement tous les éléments.
+                Notre approche numérique exploite les capacités du logiciel Attic+ afin d'obtenir une 
+                modélisation précise de votre ouvrage en maquette numérique 3D. Grâce à cette méthode, 
+                nous extrayons automatiquement les quantités nécessaires au métré et produisons rapidement 
+                une DPGF fiable et précise.
               </p>
               
               <ul className="space-y-3">
@@ -101,25 +103,25 @@ const Technology = () => {
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Maquette numérique 3D avec transparences</span>
+                  <span className="text-brand-darkGray">Maquette numérique BIM détaillée (logiciel Attic+)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Couleurs distinctes pour chaque élément constructif</span>
+                  <span className="text-brand-darkGray">Extraction automatique des métrés</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Tableau d'analyse détaillant structures et matériaux</span>
+                  <span className="text-brand-darkGray">Fiabilité et gain de temps importants</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Visualisation technique axée sur le digital</span>
+                  <span className="text-brand-darkGray">Facilité d'échange et de visualisation des livrables</span>
                 </li>
               </ul>
             </div>
