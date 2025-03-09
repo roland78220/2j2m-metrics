@@ -20,7 +20,7 @@ const Technology = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 animate-fade-in">
             <div className="h-64 relative overflow-hidden">
               <img 
-                src="/lovable-uploads/524a2331-cebd-4bac-8f0e-0f2c78080abe.png" 
+                src="/lovable-uploads/06196fd0-fd72-4d16-85ee-e8930c64628c.png" 
                 alt="Approche traditionnelle : Maquette physique avec plans" 
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />
@@ -74,7 +74,7 @@ const Technology = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 animate-fade-in">
             <div className="h-64 relative overflow-hidden">
               <img 
-                src="/lovable-uploads/524a2331-cebd-4bac-8f0e-0f2c78080abe.png" 
+                src="/lovable-uploads/94d1acc2-2746-4e75-8255-b7d1415b0cc8.png" 
                 alt="Approche numérique : Maquette BIM avec analyse logicielle" 
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />
