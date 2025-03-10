@@ -44,7 +44,7 @@ const Methodology = () => {
           <div className="tag mb-4 animate-fade-in">Notre approche</div>
           <h2 className="text-brand-darkGray mb-6 animate-fade-in">Notre méthodologie</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Un processus structuré en 3 étapes pour réaliser vos métrés avec précision.
+            Un processus en 3 étapes pour garantir des métrés adaptés à votre projet :
           </p>
         </div>
 
@@ -54,21 +54,21 @@ const Methodology = () => {
               number={1} 
               icon={FileText} 
               title="Analyse des documents et des besoins" 
-              description="Nous étudions vos plans, CCTP et documents annexes afin de cerner précisément vos besoins et les caractéristiques du projet."
+              description="Nous étudions vos plans et documents techniques (CCTP, pièces écrites) afin de comprendre clairement votre projet et vos attentes."
               delay={0.1}
             />
             <Step 
               number={2} 
               icon={Calculator} 
-              title="Réalisation des métrés et vérification" 
-              description="Nos experts réalisent les métrés en utilisant la méthode traditionnelle ou numérique selon votre projet. Chaque métré fait l'objet d'un contrôle systématique."
+              title="Réalisation des métrés et contrôle qualité" 
+              description="Nos experts réalisent le métré précis de votre projet, en méthode traditionnelle sur plans 2D ou via modélisation BIM 3D, selon votre choix. Chaque métré est vérifié pour assurer la conformité des quantités."
               delay={0.2}
             />
             <Step 
               number={3} 
               icon={Send} 
-              title="Livrables et suivi" 
-              description="Nous vous transmettons les livrables correspondant à vos attentes et restons à votre écoute pour toute précision ou modification éventuelle."
+              title="Livraison des documents" 
+              description="Nous vous fournissons les livrables prêts à être utilisés : minute métré, DPGF complète ou maquette BIM exploitable."
               delay={0.3}
             />
           </div>
