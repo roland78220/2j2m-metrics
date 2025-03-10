@@ -1,3 +1,4 @@
+
 import { Ruler, Calculator, Code, PencilRuler, Database, FileCheck } from 'lucide-react';
 
 const Technology = () => {
@@ -88,10 +89,7 @@ const Technology = () => {
             <div className="p-6">
               <h4 className="text-lg font-medium text-brand-darkGray mb-3">Méthode BIM 3D</h4>
               <p className="text-brand-gray mb-4">
-                Notre approche numérique exploite les capacités du logiciel Attic+ afin d'obtenir une 
-                modélisation précise de votre ouvrage en maquette numérique 3D. Grâce à cette méthode, 
-                nous extrayons automatiquement les quantités nécessaires au métré et produisons rapidement 
-                une DPGF fiable et précise.
+                Notre approche numérique utilise la modélisation BIM (logiciel Attic+) pour visualiser votre projet en 3D et générer automatiquement les quantités nécessaires à la réalisation des métrés.
               </p>
               
               <ul className="space-y-3">
@@ -99,7 +97,7 @@ const Technology = () => {
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Maquette numérique BIM détaillée (logiciel Attic+)</span>
+                  <span className="text-brand-darkGray">Modélisation BIM détaillée (Attic+)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
@@ -111,13 +109,13 @@ const Technology = () => {
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Fiabilité et gain de temps importants</span>
+                  <span className="text-brand-darkGray">Génération rapide d'une DPGF fiable</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Facilité d'échange et de visualisation des livrables</span>
+                  <span className="text-brand-darkGray">Visualisation simplifiée et échanges facilités</span>
                 </li>
               </ul>
             </div>
