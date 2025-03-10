@@ -1,5 +1,5 @@
 
-import { ClipboardList, Calculator, FileText } from 'lucide-react';
+import { FileText, Calculator, Send } from 'lucide-react';
 
 interface StepProps {
   number: number;
@@ -44,7 +44,7 @@ const Methodology = () => {
           <div className="tag mb-4 animate-fade-in">Notre approche</div>
           <h2 className="text-brand-darkGray mb-6 animate-fade-in">Notre méthodologie</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Un processus en 3 étapes simples et efficaces pour vous fournir des métrés précis et optimisés.
+            Un processus structuré en 3 étapes pour réaliser vos métrés avec précision.
           </p>
         </div>
 
@@ -52,23 +52,23 @@ const Methodology = () => {
           <div className="space-y-2">
             <Step 
               number={1} 
-              icon={ClipboardList} 
-              title="Analyse des besoins et des documents" 
-              description="Nous étudions attentivement vos plans, CCTP et autres documents pour comprendre précisément vos besoins et les spécificités du projet."
+              icon={FileText} 
+              title="Analyse des documents et des besoins" 
+              description="Nous étudions vos plans, CCTP et documents annexes afin de cerner précisément vos besoins et les caractéristiques du projet."
               delay={0.1}
             />
             <Step 
               number={2} 
               icon={Calculator} 
-              title="Réalisation des métrés et contrôle qualité" 
-              description="Nos experts procèdent au métré détaillé en utilisant la méthode la plus adaptée à votre projet, traditionnelle ou numérique. Chaque métré est soumis à un processus rigoureux de vérification et de contrôle qualité pour éliminer toute erreur potentielle."
+              title="Réalisation des métrés et vérification" 
+              description="Nos experts réalisent les métrés en utilisant la méthode traditionnelle ou numérique selon votre projet. Chaque métré fait l'objet d'un contrôle systématique."
               delay={0.2}
             />
             <Step 
               number={3} 
-              icon={FileText} 
-              title="Livraison et support" 
-              description="Nous vous livrons vos métrés dans le format souhaité et restons disponibles pour répondre à vos questions et apporter des ajustements si nécessaire."
+              icon={Send} 
+              title="Livrables et suivi" 
+              description="Nous vous transmettons les livrables correspondant à vos attentes et restons à votre écoute pour toute précision ou modification éventuelle."
               delay={0.3}
             />
           </div>
