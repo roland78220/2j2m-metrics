@@ -1,4 +1,3 @@
-
 import { Ruler, Calculator, Code, PencilRuler, Database, FileCheck } from 'lucide-react';
 
 const Technology = () => {
@@ -37,10 +36,7 @@ const Technology = () => {
             <div className="p-6">
               <h4 className="text-lg font-medium text-brand-darkGray mb-3">Mesure sur plans et édition de DPGF</h4>
               <p className="text-brand-gray mb-4">
-                Notre méthode traditionnelle consiste à réaliser les métrés directement sur les plans 
-                architecturaux 2D à l'aide du kutch. Les données relevées sont soigneusement retranscrites 
-                dans un métré minute puis consolidées dans une Décomposition du Prix Global et Forfaitaire (DPGF). 
-                Nous pouvons également réaliser l'édition ou la modification de plans 2D selon vos besoins spécifiques.
+                Notre méthode traditionnelle repose sur une analyse directe des plans architecturaux 2D, accompagnée d'une minute métré détaillée et d'une DPGF structurée prête à l'emploi.
               </p>
               
               <ul className="space-y-3">
@@ -48,25 +44,25 @@ const Technology = () => {
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Mesure précise sur plans 2D</span>
+                  <span className="text-brand-darkGray">Mesure précise et repérage sur plans architecturaux</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Édition de la minute métré détaillée</span>
+                  <span className="text-brand-darkGray">Minute métré détaillée</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Édition d'une DPGF claire et fiable</span>
+                  <span className="text-brand-darkGray">DPGF complète et structurée</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Création et modification de plans 2D sur demande</span>
+                  <span className="text-brand-darkGray">Édition et modification des plans de repérage à la demande</span>
                 </li>
               </ul>
             </div>
