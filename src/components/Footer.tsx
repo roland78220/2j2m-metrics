@@ -1,5 +1,6 @@
 
 import { Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -70,14 +71,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/mentions-legales" className="text-gray-300 hover:text-white transition-colors">
                   Mentions légales
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Politique de confidentialité
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
