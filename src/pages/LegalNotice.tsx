@@ -10,8 +10,11 @@ const LegalNotice = () => {
       <Header />
       
       <main className="flex-grow container-tight py-12">
-        <div className="mb-6">
-          <Link to="/" className="inline-flex items-center text-brand-blue hover:text-brand-darkBlue transition-colors">
+        <div className="mb-6 mt-20 md:mt-24">
+          <Link 
+            to="/" 
+            className="inline-flex items-center bg-brand-blue text-white hover:bg-brand-darkBlue transition-colors px-4 py-2 rounded-md shadow-sm"
+          >
             <ArrowLeft size={20} className="mr-2" />
             Retour à l'accueil
           </Link>
