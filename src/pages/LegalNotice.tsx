@@ -1,12 +1,19 @@
 
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 const LegalNotice = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Mentions légales | 2J2M Métrés</title>
+        <meta name="description" content="Mentions légales de 2J2M Métrés - Informations juridiques, politique de confidentialité et conditions d'utilisation du site." />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+      
       <Header />
       
       <main className="flex-grow container-tight py-12">

@@ -1,5 +1,6 @@
 
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
@@ -43,6 +44,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>2J2M Métrés | Expert en métrés pour le bâtiment</title>
+        <meta name="description" content="2J2M Métrés - Service de métrés sur plans pour entreprises générales avec ATTIC+ et BIM. Optimisez vos appels d'offres avec nos solutions digitales." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://2j2m.tech/" />
+      </Helmet>
+      
       <Header />
       <main>
         <Hero />
