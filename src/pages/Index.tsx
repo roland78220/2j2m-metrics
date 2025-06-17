@@ -46,7 +46,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>2J2M Métrés | Expert en métrés pour le bâtiment</title>
-        <meta name="description" content="2J2M Métrés - Service de métrés sur plans pour entreprises générales avec ATTIC+ et BIM. Optimisez vos appels d'offres avec nos solutions digitales." />
+        <meta name="description" content="2j2m.tech - Site officiel de 2J2M Métrés, société experte en métrés pour le bâtiment. Nous accompagnons les entreprises générales et majors dans leurs appels d'offres avec des quantitatifs précis pour le Gros Œuvre et le Second Œuvre." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://2j2m.tech/" />
       </Helmet>

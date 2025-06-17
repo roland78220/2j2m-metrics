@@ -1,5 +1,5 @@
 
-import { Linkedin } from 'lucide-react';
+import { Linkedin, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -9,11 +9,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="text-xl font-bold mb-4">2J2M Métrés</div>
-            <p className="text-gray-300 mb-6 max-w-md">
-              Expert en métrés numériques pour les entreprises générales du bâtiment.
-              Notre mission : vous fournir des métrés précis et optimisés pour vos appels d'offres.
+            <p className="text-gray-300 mb-4 max-w-md">
+              Le site 2j2m.tech est la propriété de l'entreprise 2J2M Métrés, spécialisée dans les métrés pour le bâtiment. 
+              Nous accompagnons les entreprises générales et majors dans leurs appels d'offres en réalisant des quantitatifs précis pour le Gros Œuvre et le Second Œuvre.
             </p>
-            <div className="flex items-center">
+            <div className="text-sm text-gray-400 mb-6">
+              <p className="font-semibold text-white">Site officiel de 2J2M Métrés</p>
+              <p>Expert en métrés numériques pour les entreprises générales du bâtiment.</p>
+            </div>
+            <div className="flex items-center space-x-4">
               <a 
                 href="https://linkedin.com" 
                 target="_blank" 
@@ -22,6 +26,16 @@ const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
+              </a>
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center text-white hover:text-brand-lightBlue transition-colors text-sm"
+                aria-label="Retrouvez-nous sur Google"
+              >
+                <MapPin size={16} className="mr-1" />
+                Retrouvez-nous sur Google
               </a>
             </div>
           </div>
@@ -81,6 +95,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-12 pt-6 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} 2J2M Métrés. Tous droits réservés.</p>
+          <p className="mt-1">2j2m.tech - Site officiel de 2J2M Métrés</p>
         </div>
       </div>
     </footer>
