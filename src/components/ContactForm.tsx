@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Mail, Phone, Send } from 'lucide-react';
+import { Mail, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const ContactForm = () => {
@@ -192,18 +192,6 @@ const ContactForm = () => {
                     <p className="text-sm text-brand-gray">Email</p>
                     <a href="mailto:contact@2j2m.tech" className="text-brand-darkGray hover:text-brand-blue transition-colors">
                       contact@2j2m.tech
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="feature-icon-container shrink-0 w-10 h-10 mt-1">
-                    <Phone size={18} />
-                  </div>
-                  <div className="ml-4">
-                    <p className="text-sm text-brand-gray">Téléphone</p>
-                    <a href="tel:+33780987747" className="text-brand-darkGray hover:text-brand-blue transition-colors">
-                      +33 7 80 98 77 47
                     </a>
                   </div>
                 </div>
