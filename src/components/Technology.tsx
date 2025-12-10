@@ -74,7 +74,7 @@ const Technology = () => {
               </div>
             </div>
             <div className="p-6">
-              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Modélisation BIM (Attic+)</h4>
+              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Exploitation des données BIM : Autocad, Attic+, Revit</h4>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
