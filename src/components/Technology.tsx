@@ -1,5 +1,8 @@
 
 import { Ruler, Calculator, Code, PencilRuler, Database, FileCheck } from 'lucide-react';
+import logoAutocad from '@/assets/logo-autocad.png';
+import logoRevit from '@/assets/logo-revit.png';
+import logoAttic from '@/assets/logo-attic.png';
 
 const Technology = () => {
   return (
@@ -78,24 +81,9 @@ const Technology = () => {
               
               {/* Software logos */}
               <div className="flex items-center gap-4 mb-4 flex-wrap">
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-md">
-                  <div className="w-5 h-5 bg-red-600 rounded-sm flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">A</span>
-                  </div>
-                  <span className="text-sm font-medium text-gray-700">AutoCAD</span>
-                </div>
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-md">
-                  <div className="w-5 h-5 bg-blue-600 rounded-sm flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">A+</span>
-                  </div>
-                  <span className="text-sm font-medium text-gray-700">Attic+</span>
-                </div>
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-md">
-                  <div className="w-5 h-5 bg-blue-500 rounded-sm flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">R</span>
-                  </div>
-                  <span className="text-sm font-medium text-gray-700">Revit</span>
-                </div>
+                <img src={logoAutocad} alt="AutoCAD" className="h-10 w-auto object-contain" />
+                <img src={logoAttic} alt="Attic+" className="h-8 w-auto object-contain" />
+                <img src={logoRevit} alt="Revit" className="h-10 w-auto object-contain" />
               </div>
               
               <ul className="space-y-3">
