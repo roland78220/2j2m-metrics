@@ -6,12 +6,9 @@ const Technology = () => {
     <section id="technology" className="section bg-gradient-to-b from-white to-brand-blue/5">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
-          <div className="tag mb-4">Notre expertise technique</div>
-          <h2 className="text-brand-darkGray mb-6">Nos méthodes de travail</h2>
+          <h2 className="text-brand-darkGray mb-6">Deux méthodes au choix</h2>
           <p className="text-lg text-brand-gray">
-            Nous mettons à votre disposition deux approches distinctes et complémentaires pour la réalisation 
-            de vos métrés : une approche traditionnelle basée sur les plans 2D et une approche numérique 
-            utilisant la maquette BIM 3D.
+            Métrés sur plans 2D ou modélisation BIM 3D : nous nous adaptons à vos besoins.
           </p>
         </div>
 
@@ -35,17 +32,13 @@ const Technology = () => {
               </div>
             </div>
             <div className="p-6">
-              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Mesure sur plans et édition de DPGF</h4>
-              <p className="text-brand-gray mb-4">
-                Notre méthode traditionnelle repose sur une analyse directe des plans architecturaux 2D, accompagnée d'une minute métré détaillée et d'une DPGF structurée prête à l'emploi.
-              </p>
-              
+              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Mesure sur plans 2D</h4>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Mesure précise et repérage sur plans architecturaux</span>
+                  <span className="text-brand-darkGray">Repérage précis sur plans</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
@@ -57,13 +50,7 @@ const Technology = () => {
                   <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">DPGF complète et structurée</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="min-w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center text-white mt-0.5">
-                    <FileCheck size={12} />
-                  </div>
-                  <span className="text-brand-darkGray">Édition et modification des plans de repérage à la demande</span>
+                  <span className="text-brand-darkGray">DPGF prête à l'emploi</span>
                 </li>
               </ul>
             </div>
@@ -87,35 +74,25 @@ const Technology = () => {
               </div>
             </div>
             <div className="p-6">
-              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Méthode BIM 3D</h4>
-              <p className="text-brand-gray mb-4">
-                Notre approche numérique utilise la modélisation BIM (logiciel Attic+) pour visualiser votre projet en 3D et générer automatiquement les quantités nécessaires à la réalisation des métrés.
-              </p>
-              
+              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Modélisation BIM (Attic+)</h4>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Modélisation BIM détaillée (Attic+)</span>
+                  <span className="text-brand-darkGray">Maquette 3D de votre projet</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Extraction automatique des métrés</span>
+                  <span className="text-brand-darkGray">Extraction automatique des quantités</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
                     <FileCheck size={12} />
                   </div>
-                  <span className="text-brand-darkGray">Génération rapide d'une DPGF fiable</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
-                    <FileCheck size={12} />
-                  </div>
-                  <span className="text-brand-darkGray">Visualisation simplifiée et échanges facilités</span>
+                  <span className="text-brand-darkGray">DPGF générée rapidement</span>
                 </li>
               </ul>
             </div>

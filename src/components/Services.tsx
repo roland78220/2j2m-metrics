@@ -31,37 +31,35 @@ const Services = () => {
     <section id="services" className="section pt-8 md:pt-12">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in"></div>
-          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Services de métré professionnel</h2>
+          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Nos services</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Notre expertise vous permet de vous concentrer sur votre cœur de métier
-            tout en disposant de métrés précis pour vos études de prix.
+            Des métrés fiables pour tous vos projets de construction.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <ServiceCard 
             icon={Building} 
-            title="Métrés Gros-oeuvre" 
-            description="Quantitatifs précis de fondations, structures béton, maçonnerie et charpente pour des devis justes et compétitifs."
+            title="Gros œuvre" 
+            description="Fondations, béton, maçonnerie et charpente."
             delay={0.1}
           />
           <ServiceCard 
             icon={Ruler} 
-            title="Métrés second oeuvre" 
-            description="Tous lots architecturaux : plâtrerie, menuiserie, revêtements, plomberie, électricité, pour une analyse complète de vos projets."
+            title="Second œuvre" 
+            description="Plâtrerie, menuiserie, revêtements, plomberie, électricité."
             delay={0.2}
           />
           <ServiceCard 
             icon={FileSpreadsheet} 
-            title="Tout type d'ouvrage" 
-            description="Solutions adaptées pour le neuf et la réhabilitation : bâtiments résidentiels, tertiaires, industriels ou patrimoniaux."
+            title="Neuf & réhabilitation" 
+            description="Résidentiel, tertiaire, industriel ou patrimonial."
             delay={0.3}
           />
           <ServiceCard 
             icon={Box} 
-            title="Modélisation 3D" 
-            description="Création de maquettes numériques exportables, facilitant la coordination et optimisant vos coûts de construction."
+            title="Maquette BIM" 
+            description="Modélisation 3D et extraction automatique des quantités."
             delay={0.4}
           />
         </div>

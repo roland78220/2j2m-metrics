@@ -17,13 +17,12 @@ const Hero = () => {
           </div>
           
           <h1 className="mb-6 animate-fade-in-down" style={{ animationDelay: '0.3s' }}>
-            <span className="text-brand-darkGray">Des métrés fiables pour </span>
-            <span className="text-brand-blue">optimiser vos études de prix</span>
+            <span className="text-brand-darkGray">Métrés précis </span>
+            <span className="text-brand-blue">pour vos appels d'offres</span>
           </h1>
           
           <p className="text-xl text-brand-gray mb-8 animate-fade-in-down" style={{ animationDelay: '0.5s' }}>
-            2J2M Métrés accompagne les entreprises du bâtiment dans l'optimisation de leurs réponses
-            aux appels d'offres grâce à une expertise pointue en métrés numériques et en modélisation BIM.
+            Nous réalisons vos quantitatifs Gros Œuvre et Second Œuvre pour vous faire gagner du temps sur vos études de prix.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-down" style={{ animationDelay: '0.7s' }}>

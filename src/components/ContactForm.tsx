@@ -86,11 +86,9 @@ const ContactForm = () => {
     <section id="contact" className="section">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in">Discutons de votre projet</div>
-          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Contactez-nous</h2>
+          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Demandez un devis gratuit</h2>
           <p className="text-lg text-brand-gray animate-fade-in">
-            Vous souhaitez en savoir plus sur nos services ou obtenir un devis ?
-            N'hésitez pas à nous contacter, nous vous répondrons dans les meilleurs délais.
+            Décrivez votre projet, nous vous répondons sous 24h.
           </p>
         </div>
 
