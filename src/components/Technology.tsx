@@ -74,7 +74,30 @@ const Technology = () => {
               </div>
             </div>
             <div className="p-6">
-              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Exploitation des données BIM : Autocad, Attic+, Revit</h4>
+              <h4 className="text-lg font-medium text-brand-darkGray mb-3">Exploitation des données BIM</h4>
+              
+              {/* Software logos */}
+              <div className="flex items-center gap-4 mb-4 flex-wrap">
+                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-md">
+                  <div className="w-5 h-5 bg-red-600 rounded-sm flex items-center justify-center">
+                    <span className="text-white text-xs font-bold">A</span>
+                  </div>
+                  <span className="text-sm font-medium text-gray-700">AutoCAD</span>
+                </div>
+                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-md">
+                  <div className="w-5 h-5 bg-blue-600 rounded-sm flex items-center justify-center">
+                    <span className="text-white text-xs font-bold">A+</span>
+                  </div>
+                  <span className="text-sm font-medium text-gray-700">Attic+</span>
+                </div>
+                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-md">
+                  <div className="w-5 h-5 bg-blue-500 rounded-sm flex items-center justify-center">
+                    <span className="text-white text-xs font-bold">R</span>
+                  </div>
+                  <span className="text-sm font-medium text-gray-700">Revit</span>
+                </div>
+              </div>
+              
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="min-w-5 h-5 rounded-full bg-brand-blue flex items-center justify-center text-white mt-0.5">
