@@ -41,11 +41,7 @@ const Methodology = () => {
     <section id="methodology" className="section">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="tag mb-4 animate-fade-in">Notre approche</div>
-          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Notre méthodologie</h2>
-          <p className="text-lg text-brand-gray animate-fade-in">
-            Un processus en 3 étapes pour garantir des métrés adaptés à votre projet :
-          </p>
+          <h2 className="text-brand-darkGray mb-6 animate-fade-in">Comment ça marche ?</h2>
         </div>
 
         <div className="bg-white rounded-xl shadow-md p-8 lg:p-10 max-w-4xl mx-auto mb-10">
@@ -53,22 +49,22 @@ const Methodology = () => {
             <Step 
               number={1} 
               icon={FileText} 
-              title="Analyse des documents et des besoins" 
-              description="Nous étudions vos plans et documents techniques (CCTP, pièces écrites) afin de comprendre clairement votre projet et vos attentes."
+              title="Envoyez-nous vos plans" 
+              description="Plans architecturaux, CCTP ou tout document utile à l'étude."
               delay={0.1}
             />
             <Step 
               number={2} 
               icon={Calculator} 
-              title="Réalisation des métrés et contrôle qualité" 
-              description="Nos experts réalisent le métré précis de votre projet, en méthode traditionnelle sur plans 2D ou via modélisation BIM 3D, selon votre choix. Chaque métré est vérifié pour assurer la conformité des quantités."
+              title="Nous réalisons le métré" 
+              description="Quantification précise en 2D ou modélisation BIM 3D selon vos besoins."
               delay={0.2}
             />
             <Step 
               number={3} 
               icon={Send} 
-              title="Livraison des documents" 
-              description="Nous vous fournissons les livrables prêts à être utilisés : minute métré, DPGF complète ou maquette BIM exploitable."
+              title="Recevez vos livrables" 
+              description="Minute métré détaillée et DPGF prête à utiliser."
               delay={0.3}
             />
           </div>
