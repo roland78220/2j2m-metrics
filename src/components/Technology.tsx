@@ -1,8 +1,8 @@
 
 import { Ruler, Calculator, Code, PencilRuler, Database, FileCheck } from 'lucide-react';
 import logoAutocad from '@/assets/logo-autocad.png';
-import logoRevit from '@/assets/logo-revit.png';
-import logoAttic from '@/assets/logo-attic.png';
+import logoRevit from '@/assets/logo-revit.jpg';
+import logoAttic from '@/assets/logo-attic.webp';
 
 const Technology = () => {
   return (
